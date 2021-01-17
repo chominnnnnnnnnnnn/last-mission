@@ -1,0 +1,19 @@
+.user-component__column__title{
+    display: flex;
+    flex-direction: column;
+}
+
+.user-component__column__title span:last-child{
+    margin-top: 10px;
+}
+
+.user-component__column__img--lg{
+    width: 70px;
+    height: 70px;
+    border-radius: 40%;
+    margin-right: 20px;
+}
+
+.user-component__column__comment{
+    opacity: 0.3;
+}

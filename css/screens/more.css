@@ -1,0 +1,20 @@
+.more-screen .user-component__column:nth-child(2){
+    display: flex;
+    flex-direction: column;
+}
+
+.more-screen .service-menu{
+    margin-top: 20px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    padding-bottom: 20px;
+}
+
+.suggestions .service-menu{
+    border:none;
+}
+
+.suggestions__title{
+    display: block;
+    margin: 30px 0px;
+    font-size: 18px;
+}
