@@ -1,27 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css";>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" ; />
     <title>Login</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="status-header">
-        <div class="status-header__column">
-            <span>No Service</span>
-            <i class="fas fa-wifi"></i>
-        </div>
-        <div class="status-header__column">
-            <span>18:43</span>
-        </div>
-        <div class="status-header__column">
-            <span>11%</span>
-            <i class="fas fa-battery-full fa-lg"></i>
-            <i class="fas fa-bolt"></i>
-        </div>
+      <div class="status-header__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-header__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-header__column">
+        <span>11%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
     </div>
 
-    <script src="https://kit.fontawesome.com/679a69343b.js" crossorigin="anonymous"></script>
-</body>
+    <header class="header-menu">
+        <h1 class="header-menu__title">Friends</h1>
+        <div class="header-menu__icon">
+            <i class="fas fa-search fa-lg"></i>
+            <i class="fas fa-music fa-lg"></i>
+            <a href="setting.html"><i class="fas fa-cog fa-lg"></i></a>
+        </div>
+    </header>
+
+    <a id="name-display">
+        <i class="fas fa-info-circle"></i>
+        <span>Friends' Names Display</span>
+        <i class="fas fa-angle-right"></i>
+    </a>
+
+    <main class="main-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img class="user-component__column__img" src="https://qph.fs.quoracdn.net/main-qimg-391028616b3ba2d3dfcf8eb37a4c19d8">
+                <span class="user-component__column__name">Name on the round</span>
+            </div>
+            <div class="user-component__column"></div>
+        </div>
+        <div class="user-channel">
+            <div class="user-channel__column">Channel</div>
+            <div class="user-channel__column"><i class="fas fa-angle-up fa-lg"></i></div>
+        </div>
+        <div class="user-component">
+            <div class="user-component__column">
+                <img class="user-component__column__img--sm" src="https://qph.fs.quoracdn.net/main-qimg-391028616b3ba2d3dfcf8eb37a4c19d8">
+                <span class="user-component__column__name">Name</span>
+            </div>
+            <div class="user-component__column">
+                <span>2</span>
+                <i class="fas fa-angle-right fa-lg"></i>
+            </div>
+        </div>
+    </main>
+
+    <nav class="nav-bottom">
+        <ul class="nav-bottom__list">
+            <li><a href="friends.html"><i class="fas fa-user fa-2x"></i></a></li>
+            <li><a href="chats.html"><i class="far fa-comment fa-2x"></i></a></li>
+            <li><a href="find.html"><i class="fas fa-search fa-2x"></i></a></li>
+            <li><a href="more.html"><i class="fas fa-ellipsis-h fa-2x"></i></a></li>
+        </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/679a69343b.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
