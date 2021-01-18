@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 30px;
+    padding: 0px 10px;
     margin-bottom: 30px;
 }
 
@@ -72,7 +72,21 @@
 }
 
 .open-chat__home__column__comment:last-child{
+    display: flex;
+    justify-content: flex-start;
     text-transform: none;
+    color: rgba(0,0,0,0.3);
+}
+
+.open-chat__home__column__comment:last-child div{
+    background-color: rgba(0,0,0,0.3);
+    width: 2px;
+    height: 15px;
+    margin: 0px 5px;
+}
+
+.open-chat__home__column__comment:last-child span:last-child{
+    color: #FF71C5;
 }
 
 .open-chat__home__column__img{
