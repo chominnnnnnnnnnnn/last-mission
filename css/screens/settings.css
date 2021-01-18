@@ -1,0 +1,43 @@
+body {
+  height: 120vh;
+}
+
+.alt-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 25px;
+}
+
+.alt-header__title {
+  font-size: 30px;
+}
+
+.setting-list__li {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s linear;
+}
+
+.setting-list__li:hover {
+  background-color: sandybrown;
+  cursor: pointer;
+}
+
+.setting-list__column {
+  font-size: 20px;
+}
+
+.setting-list__column i {
+  margin-right: 15px;
+}
+
+.setting-list .setting-list__li:last-child {
+  padding-bottom: 40px;
+}
+
+.setting-list:first-child .setting-list__li:nth-child(3) {
+  margin-bottom: 20px;
+}

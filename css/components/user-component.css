@@ -1,10 +1,11 @@
 .user-component{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-bottom: 20px;
 }
 
-.user-component__column{
+.user-component__column:first-child{
     display: flex;
     align-items: center;
 }
@@ -42,10 +43,15 @@
     margin-right: 20px;
 }
 
-.user-component__column:last-child{
+/* .user-component__column:last-child{
     opacity: 0.3;
-}
+} */
 
 .user-component__column:last-child span{
     margin-right: 10px;
+}
+
+.user-component__column__text:first-child{
+    font-size: 20px;
+    margin-bottom: 10px;
 }
